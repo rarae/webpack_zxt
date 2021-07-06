@@ -1,0 +1,32 @@
+{
+  "name": "webpack_zxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack --config webpack.production.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "postcss-loader": "^6.1.1",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
